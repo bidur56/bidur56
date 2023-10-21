@@ -1,0 +1,95 @@
+body{background-color:silver;}
+
+#wrapper{border:0px  solid;
+	     width:880px;
+	     margin:auto;
+	     padding:0px;
+	     background-color:white; 
+         }
+
+*{margin:0;
+  padding:0;}
+
+
+
+#header{border: 1px solid;
+        width:100%;
+}
+
+
+#header ul {list-style-type: none;}
+
+
+#header ul li{float: left;
+              border: 0px solid;
+              background-color: red;
+              color:white;
+              width:176px;
+              text-align: center;
+
+              line-height: 30px;
+
+              }
+
+#header ul li:hover{background-color: black;}              
+
+#header ul li a{text-decoration: none;
+                color: white;}
+
+
+img {
+
+	object-fit: cover;
+	width:880px;
+	height: 322px;
+
+}
+
+
+#bodypart{border:0px solid; 
+	      margin-top: 10px;
+	      color:black;}
+
+#bodyleft{border: 0px solid; 
+	      float:left;
+          width: 180px;
+}
+
+#bodyleft h2{color: white;
+ 
+             background-color: red;
+             height:35px;}
+
+#bodyleft ul{list-style:none;}
+
+
+#bodyleft ul li{border-bottom: 1px dotted;
+                padding:10px;
+                height: 13px }
+
+
+#bodyleft ul li a:hover{color: red;}
+
+#bodyright{border: 1px solid;
+          width: 660px;
+          float: right;
+          margin-right: 20px;
+         }
+
+
+#bodyright h2{text-align:center; 
+	          color: white;
+              background: red;
+              padding:10px}
+
+#bodyright p{font-size: 20px;
+             line-height:19px;
+             padding: 10px}
+
+#footer{border: 1px solid;
+	    background-color:silver ;
+	    margin-top:225px}
+
+
+#bodyleft-title{text-decoration: unset;
+}
